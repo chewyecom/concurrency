@@ -1,4 +1,4 @@
-package scheduled;
+package conc;
 
 import java.awt.List;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ import java.util.concurrent.Future;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-public class CheckResultsS {
+public class CheckResultsScheduled {
 	private static int counter =0;
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
-		CheckResultsS cr = new CheckResultsS();
+		CheckResultsScheduled cr = new CheckResultsScheduled();
 		cr.tasks1();
 
 	}
